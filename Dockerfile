@@ -1,4 +1,4 @@
-FROM mulyonoaja/min-jessie:latest
+FROM ubuntu:18.04
 RUN apt-get update
 RUN apt-get install -y apache2
 RUN touch /var/log/apache2/error.log

@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: default_apache
+    image: mulyonoaja/min-jessie
   lb:
     image: dockercloud/haproxy
     links:

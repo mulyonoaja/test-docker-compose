@@ -1,4 +1,4 @@
-FROM monsantoco/min-jessie:latest
+FROM mulyonoaja/min-jessie:latest
 RUN apt-get update
 RUN apt-get install -y apache2
 RUN touch /var/log/apache2/error.log
